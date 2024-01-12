@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class = "navbar-nav">
+      <li class = "nav-item">
+        
+      <li class = "nav-item">
+        <a routerLink="customers" routerLinkActive="active" class="nav-link" >Customer List</a>
+      </li>
+      <li class = "nav-item">
+        <a routerLink="add-customer" routerLinkActive="active" class="nav-link" >Add Customer</a>
+      </li>
+
+      <li class = "nav-item">
+        <a routerLink="products" routerLinkActive="active" class="nav-link" >Product List</a>
+      </li>
+      <li class = "nav-item">
+        <a routerLink="add-product" routerLinkActive="active" class="nav-link" >Add Product</a>
+      </li>
+  </ul>
+</nav>
+
+<h1 class="text-center"> {{title}} </h1>
+<div class = "container">
+  <router-outlet></router-outlet>
+</div>
+<footer class = "footer">
+  <div class = "container">
+      <span>All Rights Reserved &#64;AishwaryaChemate<br>Contact : 9604525665</span>
+  </div>
+</footer>
